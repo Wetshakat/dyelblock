@@ -1,8 +1,12 @@
- /** @type {import('tailwindcss').Config} */
- export default {
-  content: ["./dist/*.{html,js}"],
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./dist/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        space: ["Space Grotesk", "serif"],
+      },
+    },
   },
   plugins: [],
-}
+};
