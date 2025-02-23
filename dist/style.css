@@ -789,6 +789,102 @@ video {
   margin-top: 50px;
 }
 
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.ml-\[\] {
+  margin-left: ;
+}
+
+.ml-\[100\] {
+  margin-left: 100;
+}
+
+.ml-\[100px\] {
+  margin-left: 100px;
+}
+
+.ml-\[200\] {
+  margin-left: 200;
+}
+
+.ml-\[00px\] {
+  margin-left: 00px;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[200\] {
+  margin-top: 200;
+}
+
+.mr-\[\] {
+  margin-right: ;
+}
+
+.mr-\[50px\] {
+  margin-right: 50px;
+}
+
+.mr-\[100\] {
+  margin-right: 100;
+}
+
+.mr-\[100px\] {
+  margin-right: 100px;
+}
+
+.mr-\[10px\] {
+  margin-right: 10px;
+}
+
+.mr-\[150px\] {
+  margin-right: 150px;
+}
+
+.mr-\[200px\] {
+  margin-right: 200px;
+}
+
+.mt-\[00px\] {
+  margin-top: 00px;
+}
+
+.mt-\[100\] {
+  margin-top: 100;
+}
+
+.ml-\[300px\] {
+  margin-left: 300px;
+}
+
+.ml-7 {
+  margin-left: 1.75rem;
+}
+
+.ml-9 {
+  margin-left: 2.25rem;
+}
+
+.ml-\[500px\] {
+  margin-left: 500px;
+}
+
+.mt-\[2\] {
+  margin-top: 2;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
+.ml-\[600px\] {
+  margin-left: 600px;
+}
+
 .flex {
   display: flex;
 }
@@ -835,6 +931,22 @@ video {
 
 .h-auto {
   height: auto;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[20px\] {
+  height: 20px;
+}
+
+.h-\[400\] {
+  height: 400;
+}
+
+.h-\[400px\] {
+  height: 400px;
 }
 
 .w-1\/4 {
@@ -914,12 +1026,80 @@ video {
   width: 100%;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[20px\] {
+  width: 20px;
+}
+
+.w-\[40\] {
+  width: 40;
+}
+
+.w-\[40\%\] {
+  width: 40%;
+}
+
+.w-\[90\] {
+  width: 90;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-\[85\%\] {
+  width: 85%;
+}
+
+.w-\[0\%\] {
+  width: 0%;
+}
+
+.w-\[1000\%\] {
+  width: 1000%;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[45\%\] {
+  width: 45%;
+}
+
+.w-\[\%\] {
+  width: %;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-\[5\%\] {
+  width: 5%;
+}
+
+.w-\[400px\] {
+  width: 400px;
+}
+
+.w-\[50\] {
+  width: 50;
+}
+
 .max-w-\[800px\] {
   max-width: 800px;
 }
 
 .grow {
   flex-grow: 1;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .cursor-pointer {
@@ -1081,6 +1261,26 @@ video {
   background-color: rgb(30 41 59 / var(--tw-bg-opacity, 1));
 }
 
+.bg-blue-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 64 175 / var(--tw-bg-opacity, 1));
+}
+
+.bg-blue-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 197 253 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gray-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gray-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 7 18 / var(--tw-bg-opacity, 1));
+}
+
 .bg-gradient-to-l {
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
 }
@@ -1204,6 +1404,11 @@ video {
   padding-bottom: 60px;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -1224,8 +1429,16 @@ video {
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .font-serif {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .text-2xl {
@@ -1236,6 +1449,11 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-7xl {
@@ -1276,6 +1494,15 @@ video {
   line-height: 1.75rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1286,6 +1513,10 @@ video {
 
 .font-normal {
   font-weight: 400;
+}
+
+.font-black {
+  font-weight: 900;
 }
 
 .text-blue-900 {
@@ -1331,6 +1562,16 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-purple-900 {
+  --tw-text-opacity: 1;
+  color: rgb(88 28 135 / var(--tw-text-opacity, 1));
+}
+
+.text-purple-600 {
+  --tw-text-opacity: 1;
+  color: rgb(147 51 234 / var(--tw-text-opacity, 1));
 }
 
 .underline {
